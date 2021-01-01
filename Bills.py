@@ -13,7 +13,7 @@ class Bill:
 
     def calculate(self):
         print("Name :"," "*16,f"{str(self.name).upper()}")
-        print("Surname :", " "*13,f"{str(self.surname).upper()}\\n\n")
+        print("Surname :", " "*13,f"{str(self.surname).upper()}\n\n")
         all_price = 0
         for product, num in zip(self.bill.keys(),self.bill.values()):
             price = price_of_product_list.get(product)
