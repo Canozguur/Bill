@@ -2,6 +2,8 @@ price_of_product_list = {"cigarette":20.0,
                          "milk":5.0,
                          "choclate":1.25}
 
+# ups tairs write product and price of product
+
 
 class Bill:
     def __init__(self,name,surname ,bill):
@@ -23,11 +25,10 @@ class Bill:
         print("Total Price :","-"*25,f"{all_price}")
         print("-"*45)
 
-
-
-
-
+        
+# down stairs write product name and how many user bought it . 
 user_stuff = {"cigarette":2,
             "choclate":4}
+
 user = Bill("Can","Ozgur",user_stuff)
 user.calculate()
